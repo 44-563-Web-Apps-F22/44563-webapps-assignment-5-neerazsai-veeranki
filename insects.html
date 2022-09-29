@@ -12,6 +12,21 @@
     integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
 
     <title>Insects</title>
+
+    <style>
+      .card {
+        display:inline-block;
+        padding: 10;
+        margin-bottom: 10px;
+        box-shadow: 0px 0px 0px grey;
+        -webkit-transition:  box-shadow .6s ease-out;
+        box-shadow: .8px .9px 3px grey;
+      }
+      .card:hover {
+        box-shadow: 1px 8px 20px grey;
+        -webkit-transition:  box-shadow .6s ease-in;
+      }
+    </style>
 </head>
 <body>
 
@@ -165,5 +180,34 @@
     </div>
     <button class="btn btn-primary" type="submit">Submit</button>
   </form>
+
+  <hr>
+
+  <div class="card card-columns">
+    <div class="card" style="width:33%">
+      <img class="card-img-top" src="images/butterfly.jpg" alt="Card image" style="width:100%">
+      <div class="card-body">
+        <h4 class="card-title">Viceroy Butterfly</h4>
+        <p class="card-text">Ants are eusocial insects of the family Formicidae and, along with the related wasps and bees, belong to the order Hymenoptera. Ants evolved from vespoid wasp ancestors in the Cretaceous period. More than 13,800 of an estimated total of 22,000 species have been classified.</p>
+        <a href="https://en.wikipedia.org/wiki/Viceroy_(butterfly)" class="btn btn-primary">Learn more..</a>
+      </div>
+    </div>
+    <div class="card" style="width:33%">
+      <img class="card-img-top" src="images/earthworm.jpg" alt="Card image" style="width:100%">
+      <div class="card-body">
+        <h4 class="card-title">Earthworm</h4>
+        <p class="card-text">An earthworm is a terrestrial invertebrate that belongs to the phylum Annelida. They exhibit a tube-within-a-tube body plan; they are externally segmented with corresponding internal segmentation; and they usually have setae on all segments.</p>
+        <a href="https://en.wikipedia.org/wiki/Earthworm" class="btn btn-primary">Learn more..</a>
+      </div>
+    </div>
+    <div class="card" style="width:33%">
+      <img class="card-img-top" src="images/ant.jpg" alt="Card image" style="width:100%">
+      <div class="card-body">
+        <h4 class="card-title">Ant</h4>
+        <p class="card-text">The viceroy (Limenitis archippus) is a North American butterfly. It was long thought to be a Batesian mimic of the monarch butterfly, but since the viceroy is also distasteful to predators, it is now considered a Müllerian mimic instead.</p>
+        <a href="https://en.wikipedia.org/wiki/Ant" class="btn btn-primary">Learn more..</a>
+      </div>
+    </div>
+  </div>
 </body>
 </html>
